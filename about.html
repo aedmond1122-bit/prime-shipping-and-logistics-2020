@@ -1,12 +1,58 @@
-<!-- About Us Section -->
-<section class="py-16 bg-white">
-  <div class="container mx-auto px-4">
-    <h1 class="text-3xl font-bold text-center mb-8">About Us</h1>
-    <p class="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto text-center">
-      <!-- ✨ Replace this placeholder with your own text -->
-      We are Prime Shipping & Logistics, dedicated to delivering reliable,
-      fast, and affordable shipping solutions across the globe. Our mission
-      is to ensure every package arrives safely and on time.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Prime Shipping & Logistics</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navigation Bar -->
+  <header class="shadow bg-gradient-to-r from-blue-800 to-blue-600">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html">
+        <img src="images/logo.jpg" alt="PRIME SHIPPING & LOGISTICS" class="h-12">
+      </a>
+      <button id="menu-toggle" class="md:hidden text-white focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+      <nav id="menu" class="hidden md:flex space-x-4 items-center">
+        <a href="index.html" class="text-white hover:underline">Home</a>
+        <a href="contact.html" class="text-white hover:underline">Contact</a>
+        <a href="about.html" class="text-white hover:underline">About Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Us Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4 max-w-4xl text-center">
+      <h1 class="text-4xl font-bold text-blue-800 mb-6">About Us</h1>
+      <p class="text-lg text-gray-600 leading-relaxed">
+        <!-- 📝 PLACEHOLDER: Replace this text with your real About Us content -->
+        Write about your company here. Include your mission, values, services, and what makes you stand out.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-800 text-white text-center py-6">
+    <p class="text-sm">
+      &copy; 2025 PRIME SHIPPING & LOGISTICS. All rights reserved. 
+      <a href="privacy.html" class="underline text-blue-200 hover:text-white">Privacy Policy</a>
     </p>
-  </div>
-</section>
+  </footer>
+
+  <script>
+    // Mobile Menu Toggle
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+      document.getElementById('menu').classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>

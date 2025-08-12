@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Prime Shipping & Logistics</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-[url('images/your-background.jpg')] bg-cover bg-center bg-no-repeat text-blue-800">
 
-<!-- Floating WhatsApp -->
-<a href="https://wa.me/233244844521" 
-   class="fixed bottom-6 right-6 z-50 animate-bounce bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg"
-   target="_blank" aria-label="Chat on WhatsApp">
-   <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
-       <path d="M20.52 3.48A11.78 11.78 0 0012 0C5.37 0 0 5.37 0 12c0 2.12.56 4.18 1.63 6.02L0 24l6.17-1.61A11.96 11.96 0 0012 24c6.63 0 12-5.37 12-12 0-3.2-1.25-6.21-3.48-8.52zM12 21.82c-1.86 0-3.67-.5-5.26-1.45l-.38-.23-3.65.95.97-3.56-.25-.37A9.81 9.81 0 012.18 12C2.18 6.59 6.59 2.18 12 2.18c2.62 0 5.09 1.02 6.94 2.87A9.78 9.78 0 0121.82 12c0 5.41-4.41 9.82-9.82 9.82z"/>
-       <path d="M17.49 14.36c-.29-.14-1.72-.85-1.99-.94-.27-.1-.46-.14-.65.14s-.75.94-.92 1.13c-.17.19-.34.21-.63.07-.29-.14-1.23-.45-2.34-1.43-.86-.77-1.44-1.72-1.61-2.01-.17-.29-.02-.45.12-.59.13-.13.29-.34.43-.51.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.5-.07-.14-.65-1.56-.89-2.13-.23-.55-.47-.47-.65-.48-.17-.01-.36-.01-.55-.01-.19 0-.5.07-.76.36s-1 1-1 2.44 1.03 2.83 1.17 3.02c.14.19 2.02 3.09 4.9 4.33.69.3 1.23.48 1.65.61.69.22 1.32.19 1.82.12.56-.08 1.72-.7 1.96-1.38.24-.68.24-1.27.17-1.38-.07-.11-.26-.18-.55-.32z"/>
-   </svg>
-</a>
+<body class="relative min-h-screen bg-cover bg-center bg-no-repeat" style="background-image: url('images/background.jpg');">
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/233244844521"
+    class="fixed bottom-6 right-6 z-50 animate-bounce bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg"
+    target="_blank" aria-label="Chat on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+      <path
+        d="M20.52 3.48A11.78 11.78 0 0012 0C5.37 0 0 5.37 0 12c0 2.12.56 4.18 1.63 6.02L0 24l6.17-1.61A11.96 11.96 0 0012 24c6.63 0 12-5.37 12-12 0-3.2-1.25-6.21-3.48-8.52zM12 21.82c-1.86 0-3.67-.5-5.26-1.45l-.38-.23-3.65.95.97-3.56-.25-.37A9.81 9.81 0 012.18 12C2.18 6.59 6.59 2.18 12 2.18c2.62 0 5.09 1.02 6.94 2.87A9.78 9.78 0 0121.82 12c0 5.41-4.41 9.82-9.82 9.82z" />
+      <path
+        d="M17.49 14.36c-.29-.14-1.72-.85-1.99-.94-.27-.1-.46-.14-.65.14s-.75.94-.92 1.13c-.17.19-.34.21-.63.07-.29-.14-1.23-.45-2.34-1.43-.86-.77-1.44-1.72-1.61-2.01-.17-.29-.02-.45.12-.59.13-.13.29-.34.43-.51.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.5-.07-.14-.65-1.56-.89-2.13-.23-.55-.47-.47-.65-.48-.17-.01-.36-.01-.55-.01-.19 0-.5.07-.76.36s-1 1-1 2.44 1.03 2.83 1.17 3.02c.14.19 2.02 3.09 4.9 4.33.69.3 1.23.48 1.65.61.69.22 1.32.19 1.82.12.56-.08 1.72-.7 1.96-1.38.24-.68.24-1.27.17-1.38-.07-.11-.26-.18-.55-.32z" />
+    </svg>
+  </a>
 
   <!-- Navigation Bar -->
-  <header class="shadow bg-blue-800 bg-opacity-80">
+  <header class="fixed top-0 left-0 right-0 z-40 bg-blue-800 bg-opacity-40 shadow-md backdrop-blur-sm">
     <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-      
       <!-- Logo -->
       <a href="index.html" class="flex items-center">
-        <img src="images/logo.jpg" alt="logo" class="h-20 rounded-lg shadow-lg border-4 border-blue-700">
+        <img src="images/logo.jpg" alt="logo" class="h-20 rounded-lg shadow-lg border-4 border-blue-700" />
       </a>
 
       <!-- Desktop Navigation -->
-      <nav class="hidden md:flex space-x-6 text-white font-semibold text-lg">
+      <nav class="hidden md:flex space-x-6 text-white font-semibold">
         <a href="index.html" class="hover:text-yellow-400 transition">Home</a>
         <a href="services.html" class="hover:text-yellow-400 transition">Services</a>
         <a href="gallery.html" class="hover:text-yellow-400 transition">Gallery</a>
@@ -38,19 +41,21 @@
       </nav>
 
       <!-- Mobile Menu Button -->
-      <button id="menu-toggle" class="md:hidden text-white text-3xl focus:outline-none" aria-label="Toggle menu">
+      <button id="menu-toggle" class="md:hidden text-white focus:outline-none text-2xl">
         ☰
       </button>
     </div>
 
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="hidden md:hidden bg-blue-900 text-white px-4 py-2 space-y-2">
+    <div id="mobile-menu" class="hidden md:hidden bg-blue-900 bg-opacity-90 text-white px-4 py-2 space-y-2">
       <a href="index.html" class="block hover:text-yellow-400 transition">Home</a>
       <a href="services.html" class="block hover:text-yellow-400 transition">Services</a>
+      <a href="gallery.html" class="block hover:text-yellow-400 transition">Gallery</a>
       <a href="about.html" class="block hover:text-yellow-400 transition">About</a>
       <a href="contact.html" class="block hover:text-yellow-400 transition">Contact</a>
     </div>
   </header>
+
   <!-- Script for Mobile Menu Toggle -->
   <script>
     document.getElementById('menu-toggle').addEventListener('click', function () {
@@ -58,70 +63,61 @@
     });
   </script>
 
-  <!-- Hero Section -->
-  <section class="px-6 py-10 max-w-7xl mx-auto relative">
-    <div class="relative rounded-3xl overflow-hidden shadow-5xl">
-      <!-- Background Image -->
-      <img
-        src="images/background.jpg"
-        alt="Reliable Shipping"
-        class="w-full h-[300px] md:h-[400px] object-cover object-center rounded-3xl"
-      />
+  <!-- Main Content Wrapper to add padding top for fixed navbar -->
+  <main class="pt-[100px] max-w-7xl mx-auto px-4">
 
-      <!-- Text on Background, aligned right -->
-      <div
-        class="absolute inset-0 flex flex-col justify-center items-end text-right px-8 py-10"
-        role="region" aria-label="Hero section text"
-      >
-        <h2 class="text-4xl md:text-5xl font-extrabold text-white drop-shadow-lg leading-tight max-w-xl">
+    <!-- Hero Section -->
+    <section
+      class="relative rounded-3xl overflow-hidden shadow-5xl mb-16 bg-white bg-opacity-70 backdrop-blur-sm p-6">
+      <img src="images/background.jpg" alt="Reliable Shipping"
+        class="w-full h-[300px] md:h-[400px] object-cover object-center rounded-3xl opacity-40 absolute inset-0 z-0" />
+      <div class="relative z-10 flex flex-col justify-center items-center text-center px-6 py-10">
+        <h2
+          class="text-3xl md:text-4xl font-extrabold text-blue-800 drop-shadow-lg leading-tight mb-4">
           Reliable Shipping. Anytime. Anywhere.
         </h2>
-        <p class="mt-4 text-lg md:text-xl text-white drop-shadow max-w-xl">
+        <p class="text-base md:text-lg text-blue-900 max-w-2xl mb-6">
           We buy whatever you need, and ship your products for you — safely and on time.
         </p>
-        <a
-          href="quote.html"
-          class="mt-6 inline-block px-6 py-3 rounded-full bg-blue-700 bg-opacity-90 text-white font-semibold hover:bg-blue-800 transition transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75"
-          role="button"
-        >
+        <a href="quote.html"
+          class="inline-block px-5 py-2.5 rounded-full bg-blue-700 text-white font-semibold hover:bg-blue-800 transition transform hover:scale-105">
           Request a Quote
         </a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Services Section -->
-  <section id="services" class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4">
+    <!-- Services Section -->
+    <section id="services" class="mb-16">
       <h3 class="text-3xl font-bold text-center mb-8 text-blue-800">Our Services</h3>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-white p-6 shadow-lg rounded-xl text-center hover:shadow-2xl transition-shadow duration-300">
+        <div
+          class="bg-white bg-opacity-70 p-6 shadow-lg rounded-xl text-center hover:shadow-2xl transition-shadow duration-300">
           <img src="images/aircargo.jpg" alt="Air Freight" class="w-full h-40 object-cover rounded-lg mb-4" />
           <h4 class="text-xl font-bold text-blue-700 mb-2">Air Freight</h4>
-          <p class="text-gray-600">Fast and secure delivery of your goods via air cargo across the globe.</p>
+          <p class="text-gray-700">Fast and secure delivery of your goods via air cargo across the globe.</p>
         </div>
-        <div class="bg-white p-6 shadow-lg rounded-xl text-center hover:shadow-2xl transition-shadow duration-300">
+        <div
+          class="bg-white bg-opacity-70 p-6 shadow-lg rounded-xl text-center hover:shadow-2xl transition-shadow duration-300">
           <img src="images/port(1).jpg" alt="Sea Freight" class="w-full h-40 object-cover rounded-lg mb-4" />
           <h4 class="text-xl font-bold text-blue-700 mb-2">Sea Freight</h4>
-          <p class="text-gray-600">Cost-effective shipping for large loads using trusted marine partners.</p>
+          <p class="text-gray-700">Cost-effective shipping for large loads using trusted marine partners.</p>
         </div>
-        <div class="bg-white p-6 shadow-lg rounded-xl text-center hover:shadow-2xl transition-shadow duration-300">
+        <div
+          class="bg-white bg-opacity-70 p-6 shadow-lg rounded-xl text-center hover:shadow-2xl transition-shadow duration-300">
           <img src="images/car(1).jpg" alt="Road Transport" class="w-full h-40 object-cover rounded-lg mb-4" />
           <h4 class="text-xl font-bold text-blue-700 mb-2">Road Transport</h4>
-          <p class="text-gray-600">Reliable road delivery services nationwide with real-time tracking.</p>
+          <p class="text-gray-700">Reliable road delivery services nationwide with real-time tracking.</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Categories Section -->
-  <section id="categories" class="py-16 bg-white">
-    <div class="container mx-auto px-4">
+    <!-- Categories Section -->
+    <section id="categories" class="mb-16">
       <h3 class="text-3xl font-bold text-center mb-8 text-blue-800">Categories</h3>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-gray-50 p-6 shadow-lg rounded-xl">
+        <div class="bg-white bg-opacity-70 p-6 shadow-lg rounded-xl">
           <h4 class="text-xl font-bold text-blue-700 mb-4">General Goods</h4>
-          <ul class="list-disc list-inside text-gray-600">
+          <ul class="list-disc list-inside text-gray-700">
             <li>5kg Rice Bag</li>
             <li>Quaker Oats</li>
             <li>Foca Laundry Detergent</li>
@@ -129,9 +125,9 @@
             <li>Pack of Spaghetti</li>
           </ul>
         </div>
-        <div class="bg-gray-50 p-6 shadow-lg rounded-xl">
+        <div class="bg-white bg-opacity-70 p-6 shadow-lg rounded-xl">
           <h4 class="text-xl font-bold text-blue-700 mb-4">Electronics</h4>
-          <ul class="list-disc list-inside text-gray-600">
+          <ul class="list-disc list-inside text-gray-700">
             <li>Laptops</li>
             <li>Mobile Phones</li>
             <li>Televisions</li>
@@ -139,9 +135,9 @@
             <li>Gaming Consoles</li>
           </ul>
         </div>
-        <div class="bg-gray-50 p-6 shadow-lg rounded-xl">
+        <div class="bg-white bg-opacity-70 p-6 shadow-lg rounded-xl">
           <h4 class="text-xl font-bold text-blue-700 mb-4">Cars</h4>
-          <ul class="list-disc list-inside text-gray-600">
+          <ul class="list-disc list-inside text-gray-700">
             <li>Luxury Cars</li>
             <li>SUVs</li>
             <li>Electric Cars</li>
@@ -150,21 +146,17 @@
           </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact & Social Media Section with Background Image -->
-  <section id="contact-social"
-    class="py-16 bg-blue-900 bg-cover bg-center relative z-10"
-    style="background-image: url('images/background.jpg');">
-    <div class="absolute inset-0 bg-black bg-opacity-60 z-0"></div>
-    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center relative z-10">
-
-        <!-- Contact Form & Info -->
-      <section id="contact" class="py-10 px-4 bg-cover bg-center" style="background-image: url('none');">
-        <div class="max-w-md mx-auto bg-white bg-opacity-90 rounded-xl shadow-lg p-6 text-gray-800">
+    <!-- Contact & Social Media Section -->
+    <section id="contact-social" class="mb-16">
+      <div
+        class="max-w-4xl mx-auto bg-white bg-opacity-70 backdrop-blur-sm rounded-xl shadow-lg p-8 grid md:grid-cols-2 gap-12">
+        <!-- Contact Form -->
+        <section id="contact">
           <h3 class="text-xl font-bold text-blue-800 mb-4 flex items-center">
-            <svg class="w-6 h-6 mr-2 text-blue-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <svg class="w-6 h-6 mr-2 text-blue-700" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round"
                 d="M16 12A4 4 0 008 12m8 0a4 4 0 00-8 0m8 0v2a4 4 0 01-4 4 4 4 0 01-4-4v-2m8 0V8a4 4 0 00-8 0v4" />
             </svg>
@@ -184,34 +176,26 @@
               Send
             </button>
           </form>
-        </div>
-      </section>
+        </section>
 
-        <!-- Social Media Section -->
-      <div class="flex space-x-6 justify-center md:justify-start">
-        <a href="https://facebook.com/" target="_blank" class="hover:scale-110 transform transition" aria-label="Facebook">
-          <svg class="w-10 h-10 rounded-full bg-white p-2 shadow text-blue-700 hover:bg-blue-700 hover:text-white transition" fill="currentColor" viewBox="0 0 24 24" role="img">
-            <path d="M22 12c0-5.522-4.477-10-10-10S2 6.478 2 12c0 5 3.657 9.128 8.438 9.877v-6.987h-2.54V12h2.54V9.797c0-2.506 1.493-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.242 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.987C18.343 21.128 22 17 22 12z"/>
-          </svg>
-        </a>
-        <a href="https://twitter.com/" target="_blank" class="hover:scale-110 transform transition" aria-label="Twitter">
-          <svg class="w-10 h-10 rounded-full bg-white p-2 shadow text-blue-500 hover:bg-blue-500 hover:text-white transition" fill="currentColor" viewBox="0 0 24 24" role="img">
-            <path d="M22.46 6c-.77.35-1.6.59-2.46.69a4.27 4.27 0 001.88-2.36 8.38 8.38 0 01-2.7 1.03 4.24 4.24 0 00-7.22 3.87A12 12 0 013 4.79a4.24 4.24 0 001.31 5.67 4.23 4.23 0 01-1.92-.53v.05a4.25 4.25 0 003.4 4.17 4.3 4.3 0 01-1.91.07 4.25 4.25 0 003.96 2.95A8.52 8.52 0 012 19.54a12 12 0 006.29 1.84c7.55 0 11.68-6.26 11.68-11.68 0-.18-.01-.35-.02-.53A8.18 8.18 0 0024 4.59a8.2 8.2 0 01-2.36.65 4.25 4.25 0 001.86-2.34z"/>
-          </svg>
-        </a>
-        <a href="https://linkedin.com/" target="_blank" class="hover:scale-110 transform transition" aria-label="LinkedIn">
-          <svg class="w-10 h-10 rounded-full bg-white p-2 shadow text-blue-900 hover:bg-blue-900 hover:text-white transition" fill="currentColor" viewBox="0 0 24 24" role="img">
-            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11.75 20h-3v-9h3v9zm-1.5-10.268c-.966 0-1.75-.783-1.75-1.75s.784-1.75 1.75-1.75c.967 0 1.75.783 1.75 1.75s-.783 1.75-1.75 1.75zm13.25 10.268h-3v-4.5c0-1.12-.02-2.56-1.56-2.56-1.56 0-1.8 1.22-1.8 2.48v4.58h-3v-9h2.88v1.23h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.58v4.73z"/>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-blue-900 text-gray-300 text-center py-6 mt-10">
-    &copy; 2025 Prime Shipping & Logistics. All rights reserved.
-  </footer>
-
-</body>
-</html>
+        <!-- Social Media -->
+        <div class="flex space-x-6 justify-center md:justify-start items-center">
+          <a href="https://facebook.com/" target="_blank" class="hover:scale-110 transform transition" aria-label="Facebook">
+            <svg class="w-10 h-10 rounded-full bg-white p-2 shadow text-blue-700 hover:bg-blue-700 hover:text-white transition"
+              fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M22 12c0-5.522-4.477-10-10-10S2 6.478 2 12c0 5 3.657 9.128 8.438 9.877v-6.987h-2.54V12h2.54V9.797c0-2.506 1.493-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.242 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.987C18.343 21.128 22 17 22 12z" />
+            </svg>
+          </a>
+          <a href="https://twitter.com/" target="_blank" class="hover:scale-110 transform transition" aria-label="Twitter">
+            <svg class="w-10 h-10 rounded-full bg-white p-2 shadow text-blue-500 hover:bg-blue-500 hover:text-white transition"
+              fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M22.46 6c-.77.35-1.6.59-2.46.69a4.27 4.27 0 001.88-2.36 8.38 8.38 0 01-2.7 1.03 4.24 4.24 0 00-7.22 3.87A12 12 0 013 4.79a4.24 4.24 0 001.31 5.67 4.23 4.23 0 01-1.92-.53v.05a4.25 4.25 0 003.4 4.17 4.3 4.3 0 01-1.91.07 4.25 4.25 0 003.96 2.95A8.52 8.52 0 012 19.54a12 12 0 006.29 1.84c7.55 0 11.68-6.26 11.68-11.68 0-.18-.01-.35-.02-.53A8.18 8.18 0 0024 4.59a8.2 8.2 0 01-2.36.65 4.25 4.25 0 001.86-2.34z" />
+            </svg>
+          </a>
+          <a href="https://linkedin.com/" target="_blank" class="hover:scale-110 transform transition" aria-label="LinkedIn">
+            <svg class="w-10 h-10 rounded-full bg-white p-2 shadow text-blue-900 hover:bg-blue-900 hover:text-white transition"
+              fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11.75 20h-3v-9h3v9zm-1.5-10.268c-.966 0-1.75-.783-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm16.25 10.268h-3v-4.604c0-1.097-.021-2.508-1.529-2.508-1.53 0-1.765 1.195-1.765 2.43v4.682h-3v-9h2.
